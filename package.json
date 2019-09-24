@@ -1,0 +1,33 @@
+{
+  "name": "chat-app-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Siddharth Subramanian",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidsbrmnn/chat-app-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sidsbrmnn/chat-app-example/issues"
+  },
+  "homepage": "https://github.com/sidsbrmnn/chat-app-example#readme",
+  "description": "Simple chat app using Socket.io and Express",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "serve-static": "^1.14.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "nodemon": "^1.19.2"
+  }
+}
