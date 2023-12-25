@@ -47,7 +47,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(serveStatic(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-  res.render('index', { title: 'Chat app' });
+  res.render('index', { title: 'ChatSphere' });
 });
 
 app.all('*', (req, res) => {
